@@ -109,6 +109,8 @@ func (a *Announcer) Publish(text string) error {
 
 		fmt.Printf("bounds: %+v deltaX: %d deltaY: %d\n", bounds, deltaX, deltaY)
 
+		// TODO: Make it parameters on the ~/Dropbox/shot.ini file
+
 		if deltaX == 1920 && deltaY == 1080 {
 			foundIndex = i
 			break
