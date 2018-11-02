@@ -107,7 +107,7 @@ func (a *Announcer) Publish(text string) error {
 		deltaX := (bounds.Max.X - bounds.Min.X)
 		deltaY := (bounds.Max.Y - bounds.Min.Y)
 
-		fmt.Printf("bounds: %+v deltaX: %d deltaY: %d\n", bounds, deltaX, deltaY)
+		//fmt.Printf("bounds: %+v deltaX: %d deltaY: %d\n", bounds, deltaX, deltaY)
 
 		// TODO: Make it parameters on the ~/Dropbox/shot.ini file
 
